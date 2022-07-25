@@ -1,3 +1,3 @@
 # CarRental
 
-Telepítési útmutató
+# Telepítési útmutató
