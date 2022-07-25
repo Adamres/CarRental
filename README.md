@@ -1,2 +1,3 @@
 # CarRental
-Feladat megoldása
+
+Telepítési útmutató
