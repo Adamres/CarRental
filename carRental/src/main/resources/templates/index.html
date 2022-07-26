@@ -27,6 +27,12 @@
     </form>
 
     <script>
+        var today = new Date().toISOString().split('T')[0];
+        document.getElementsByName("from")[0].setAttribute('min', today);
+        document.getElementsByName("to")[0].setAttribute('min', today);
+    </script>
+
+    <script>
         function update() {
             var firstdate = document.getElementById("start").value;
             document.getElementById("end").value = "";
