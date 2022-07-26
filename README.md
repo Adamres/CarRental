@@ -33,7 +33,7 @@ Példahasználat foglalásra: ```/reserve/1&2022-08-04&2022-09-04&TesztVivien&Te
 A tesztek a ```test/java/carrental``` mappában találhatóak, ahol tesztelve van az összes oldal elérhetősége, a kontrollerek funkciói és az adatbázis műveletek.
 
 ## Egyéb információk
-Ha sikerült a konfigurálás, akkor indításnál ez a kezdőlap fogad minket<br><br>
+Ha sikeresen konfiguráltuk a projektet, akkor indításnál ez a kezdőlap fogad minket<br><br>
 ![My Image](carRental/src/main/resources/static/styles/images/readmepic.png) <br>
 
 ### Röviden a weblap látható részeiről:<br>
