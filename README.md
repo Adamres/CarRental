@@ -2,7 +2,7 @@
 **Használt fejlesztői környezet:** IntelliJ IDEA<br>
 **Használt technológiák:** Spring Boot, Spring Security, Jpa, Docker<br>
 **Frontend:** Thymeleaf<br>
-**Adatbázis engine:** PostgreSQL
+**Adatbázis engine:** PostgreSQL<br>
 **Adatbázis neve:** car_rental
 
 # Útmutató
