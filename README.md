@@ -23,7 +23,7 @@
      Futtatáshoz:  &nbsp;   ```docker run --net=host -p 8081:8080 -t car-rental-docker.jar``` <br>
 
 ## Egyéb információk
-Ha sikerült a konfigurálás, akkor a kezdőlap fogad minket<br><bry
+Ha sikerült a konfigurálás, akkor a kezdőlap fogad minket<br><br>
 ![My Image](carRental/src/main/resources/static/styles/images/readmepic.png)
 
 
