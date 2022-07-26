@@ -18,14 +18,14 @@
 
  1. mvn install, ekkor létrejön a target mappában a car-rental-docker nevű jar fájl
  2. Itt is hajtsuk végre a fent leírt adatbázis konfigurálást
- 3. Terminálon belül navigáljunk a projekt mappájába (carRental, ahol vannak a docker fájlok is)
+ 3. Terminálon belül root jogokkal navigáljunk a projekt mappájába (carRental, ahol vannak a docker fájlok is)
  4. Adjuk ki a következő két parancsot a terminálon belül:<br> 
      Buildeléshez: &nbsp; ```docker build -t car-rental-docker.jar .``` <br>
      Futtatáshoz:  &nbsp;   ```docker run --net=host -p 8081:8080 -t car-rental-docker.jar``` <br>
      
 ## A REST API
 A bónusz Rest Api a controller packagen belül az APIController.java fájlban található meg, ahol bővebb kommentek találhatóak.<br>
-Lehetőségünk van a grafikus felület mellett Rest Api segítségével is listázni a szabad autókat és foglalni.<br>
+Lehetőségünk van a grafikus felület mellett Rest Api segítségével is listázni a szabad autókat és foglalást leadni.<br>
 Példahasználat listázásra: ```/listcars/2022-04-04&2022-04-05```<br>
 Példahasználat foglalásra: ```/reserve/1&2022-04-04&2022-05-04&TesztVivien&Tesztutca&test@test.hu&06209999999```
 
