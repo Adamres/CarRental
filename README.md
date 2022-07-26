@@ -23,7 +23,7 @@
      Futtatáshoz:  &nbsp;   ```docker run --net=host -p 8081:8080 -t car-rental-docker.jar``` <br>
 
 ## Egyéb információk
-![My Image](images/my-image.jpg)
+![My Image](pic.png)
 
 
 
