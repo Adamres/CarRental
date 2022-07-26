@@ -1,0 +1,4 @@
+insert into cars (id,name,price,photoURL) values (1,'Mclaren', 30000, 'https://cdn.pixabay.com/photo/2019/05/23/02/21/mclaren-4223024__480.jpg');
+insert into cars (id,name,price,photoURL) values (2,'Porsche', 20000, 'https://assets.porsche.com/-/media/Project/DealerWebsites/Hungary/Budapest/News-Listing/Desktop/S22_0035_fine.jpg?rev=5f650ccab0b7419d9c67c78a1b9a2e2d');
+insert into cars (id,name,price,photoURL) values (3,'Ferrari', 40000, 'https://www.autoblog.hu/media/2017/02/170035-car_812Superfast.jpg');
+insert into cars (id,name,price,photoURL) values (4,'Fisker', 60000, 'https://e-cars.hu/wp-content/uploads/2018/11/fisker-karma-hybrid-e1439376106351.jpg');
