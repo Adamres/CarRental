@@ -7,7 +7,7 @@
 # Útmutató
 ## Projekt bekonfigurálása első használat előtt<br>
  
-  1. ```src/main/resources/templates/application.properties``` fájlban módosíthatjuk az adatbázis elérési adatokat.
+  1. Beállítjuk az adatbázis elérési adatokat ```src/main/resources/application.properties``` fájlban módosíthatunk minden adatbázis eléréssel kapcsolatos információt
   1. Érdemes először rányomni a Reload All Maven Projects gombra IntelliJ esetén
   2. mvn install
   3. Futtatás előtt létrehozni az adatbázist és a táblákat, beszúrásokat, amelyek kódjai megtalálhatóak az ```src/main/resources``` mappában. Ha nem hozzuk létre a táblákat első indítás előtt, akkor a hibernate ezt megteszi helyettünk, de érdemes nekünk lefuttatni először az sql fájlokat.  Viszont magát a ```car_rental``` nevű adatbázist muszáj létrehozni.
