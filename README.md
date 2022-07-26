@@ -22,6 +22,9 @@
  4. Adjuk ki a következő két parancsot a terminálon belül:<br> 
      Buildeléshez: &nbsp; ```docker build -t car-rental-docker.jar .``` <br>
      Futtatáshoz:  &nbsp;   ```docker run --net=host -p 8081:8080 -t car-rental-docker.jar``` <br>
+     
+## A REST API
+A bónusz Rest Api a controller packagen belül az APIController.java fájlban található meg, ahol bővebb kommentek találhatóak.<br>
 
 ## Egyéb információk
 Ha sikerült a konfigurálás, akkor indításnál ez a kezdőlap fogad minket<br><br>
