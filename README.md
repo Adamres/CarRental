@@ -23,8 +23,10 @@
      Futtatáshoz:  &nbsp;   ```docker run --net=host -p 8081:8080 -t car-rental-docker.jar``` <br>
 
 ## Egyéb információk
-Ha sikerült a konfigurálás, akkor a kezdőlap fogad minket<br><br>
-![My Image](carRental/src/main/resources/static/styles/images/readmepic.png)
+Ha sikerült a konfigurálás, akkor indításnál ez a kezdőlap fogad minket<br><br>
+![My Image](carRental/src/main/resources/static/styles/images/readmepic.png) <br>
+
+Itt lehetőségünk van kiválasztani egy től-ig dátum párost és a Listáz gombra nyomva kilistázza a megadott dátumok közötti időben elérhető autókat.
 
 
 
