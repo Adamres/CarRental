@@ -1,6 +1,6 @@
 # CarRental
 **Használt fejlesztői környezet:** IntelliJ IDEA<br>
-**Használt technológiák:** Spring Boot 2, Spring Security, Jpa, Docker<br>
+**Használt technológiák:** Spring Boot, Spring Security, Jpa, Docker<br>
 **Frontend:** Thymeleaf<br>
 **Adatbázis engine:** PostgreSQL
 
