@@ -9,7 +9,8 @@
  
   1. Érdemes először rányomni a Reload All Maven Projects gombra IntelliJ esetén
   2. mvn install
-  3. Le lehet simán is futtatni, de maven-ből is indíthatjuk: mvn spring-boot:run
+  3. Futtatás előtt létrehozni az adatbázist és a táblákat, amelyek kódjai megtalálhatóak az src/main/resources mappában
+  4. Le lehet simán is futtatni, de maven-ből is indíthatjuk: mvn spring-boot:run
   
 ## Lehetőség van docker segítségével elindítani a projektet, ebben az esetben
 
@@ -17,6 +18,6 @@
  2. Terminálon belül navigáljunk a projekt mappájába (carRental, ahol vannak a docker fájlok is)
  3. Adjuk ki a következő két parancsot a terminálon belül:<br> 
      Buildeléshez: &nbsp; ```docker build -t car-rental-docker.jar .``` <br>
-     Futtatáshoz:  &nbsp;   ```docker run --net=host -p 8081:8080 -t car-rental-docker.jar``` Vagy ha véletlenül nem működik ez, akkor: ```docker run -p 8081:8080 car-rental-docker.jar```
- 
+     Futtatáshoz:  &nbsp;   ```docker run --net=host -p 8081:8080 -t car-rental-docker.jar``` <br>
+
 
