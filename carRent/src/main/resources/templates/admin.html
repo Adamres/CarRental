@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<div th:insert="fragments/head"></div>
+
+<body>
+    <div th:insert="fragments/adminheader"></div>
+    <br>
+    <h1>Válassz opciót</h1>
+    <div style="height:45px;"><br></div>
+
+    <table class="adminInfoTable">
+        <tr>
+            <td>
+                <a href="/admin/vehicles">
+                    <div class="adminInfoCard">
+                        <img th:src="@{styles/images/carsOverview.png}" width="100%">
+                        <div class="container">
+                            <h3><b>Autók az adatbázisban</b></h3>
+                        </div>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="/admin/reservations">
+                    <div class="adminInfoCard">
+                        <img th:src="@{styles/images/reservationsOverview.png}" width="100%">
+                        <div class="container">
+                            <h3><b>Foglalások</b></h3>
+                        </div>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="/admin/addcar">
+                    <div class="adminInfoCard">
+                        <img th:src="@{styles/images/addButton.png}" width="100%">
+                        <div class="container">
+                            <h3><b>Autó hozzáadása</b></h3>
+                        </div>
+                    </div>
+                </a>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

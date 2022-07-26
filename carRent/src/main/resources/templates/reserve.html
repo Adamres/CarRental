@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<div th:insert="fragments/head"></div>
+
+<body>
+    <div th:insert="fragments/header"></div>
+
+    <div style="height:45px;"><br></div>
+    <h1 th:text="${carName} + ' lefoglalása'"></h1>
+    <h3 th:text="${from} + ' és ' + ${to} + ' között'"></h3>
+    <button class="Mid"><a href="/" style="color: white">Dátum módosítása</a></button>
+    <div style="height:45px;"><br></div>
+
+    <div class="modifyForm">
+        <form action="/reservationProcess" method="post">
+            <div class="row">
+                <div class="col-25">
+                    <label for="personName">Név</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="personName" name="name" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="personEmail">Email cím</label>
+                </div>
+                <div class="col-75">
+                    <input type="email" id="personEmail" name="email" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="personAddress">Lakcím</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="personAddress" name="address" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="personPhone">Telefonszám</label>
+                </div>
+                <div class="col-75">
+                    <input type="tel" id="personPhone" name="phone" pattern="[+]*[0-9]+" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="totalDays">Napok száma</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="totalDays" name="days" th:value="${dateDifference}" required readonly>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="totalPrice">Ár összesen</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="totalPrice" name="totalPrice" th:value="${totalPrice}" required readonly>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <input type="hidden" name="carID" th:value="${carID}">
+                <input type="hidden" name="from" th:value="${from}">
+                <input type="hidden" name="to" th:value="${to}">
+                <button type="submit">Lefoglalom</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
