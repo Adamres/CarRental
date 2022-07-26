@@ -12,7 +12,7 @@
   2. Érdemes rányomni a Reload All Maven Projects gombra IntelliJ esetén
   3. mvn install
   4. Futtatás előtt hozzuk létre az adatbázist és a táblákat, beszúrásokat, amelyek kódjai megtalálhatóak az ```src/main/resources``` mappában. Ha nem hozzuk létre a táblákat első indítás előtt, akkor a hibernate ezt megteszi helyettünk, de érdemes nekünk lefuttatni először az sql fájlok utasításait.  Viszont magát a ```car_rental``` nevű adatbázist muszáj létrehozni.
-  5. Indítás: lehetőség van a beépített IDE funkcióval lefuttatni a projektet, de maven segítségével is elindíthatjuk: mvn spring-boot:run
+  5. Indítás: lehetőség van a beépített IDE funkcióval futtatni a projektet, de maven segítségével is elindíthatjuk: mvn spring-boot:run
   
 ## Lehetőség van docker segítségével elindítani a projektet, ebben az esetben
 
