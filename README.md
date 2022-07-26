@@ -3,6 +3,7 @@
 **Használt technológiák:** Spring Boot, Spring Security, Jpa, Docker<br>
 **Frontend:** Thymeleaf<br>
 **Adatbázis engine:** PostgreSQL
+**Adatbázis neve:** car_rental
 
 # Útmutató
 ## Projekt bekonfigurálása első használat előtt<br>
