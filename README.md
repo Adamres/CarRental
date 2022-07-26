@@ -8,7 +8,7 @@
 # Útmutató
 ## Projekt bekonfigurálása első használat előtt<br>
  
-  1.  ```src/main/resources/application.properties``` fájlban módosíthatunk minden adatbázis eléréssel kapcsolatos információt, ha ez szükséges. Docker használata esetén ezt a ```docker-compose.yml``` fájlban is tegyük meg.
+  1.  ```src/main/resources/application.properties``` fájlban módosíthatunk minden adatbázis eléréssel kapcsolatos információt, ha ez szükséges. Docker használata esetén ezt a ```docker-compose.yml``` fájlban is szükséges megtenni.
   2. Érdemes megnyomni a Reload All Maven Projects gombot IntelliJ esetén
   3. mvn install
   4. Futtatás előtt hozzuk létre az adatbázist és a táblákat, beszúrásokat, amelyek kódjai megtalálhatóak az ```src/main/resources``` mappában. Ha nem hozzuk létre a táblákat első indítás előtt, akkor a hibernate ezt megteszi helyettünk, de érdemes nekünk lefuttatni először az sql fájlok utasításait.  Viszont magát a ```car_rental``` nevű adatbázist muszáj létrehozni.
