@@ -5,7 +5,7 @@
 **Adatbázis engine:** PostgreSQL
 
 # Útmutató
-##Projekt bekonfigurálása első használat előtt<br>
+## Projekt bekonfigurálása első használat előtt<br>
  
   1. Érdemes először rányomni a Reload All Maven Projects gombra IntelliJ esetén
   2. mvn install
