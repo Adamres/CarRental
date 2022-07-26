@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<div th:insert="fragments/head"></div>
+
+<body>
+    <div th:insert="fragments/header"></div>
+    <!-- Minden oldalon van fragment -->
+    <div style="height:80px;"><br></div>
+    <!-- Testreszabható <br> -->
+
+    <h1>Szabad autók listázása</h1><br>
+    <form action="/vehicles" method="post">
+        <table>
+            <tr>
+                <th><label for="start">Ettől</label></th>
+                <th><label for="end">Eddig</label></th>
+            </tr>
+            <tr>
+                <td><input type="date" name="from" id="start" onchange="update();" required></td>
+                <td><input type="date" name="to" id="end" required></td>
+            </tr>
+        </table>
+        <br>
+        <div class="submitBTN"><button type="submit">Listáz</button></div>
+        <div style="height:40px;"><br></div>
+        <img class="center" src="../static/styles/images/ferrari.png" th:src="@{/styles/images/ferrari.png}" alt="ferrari">
+    </form>
+
+    <script>
+        function update() {
+            var firstdate = document.getElementById("start").value;
+            document.getElementById("end").value = "";
+            document.getElementById("end").setAttribute("min",firstdate);
+        }
+    </script>
+</body>
+</html>

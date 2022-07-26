@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<div th:insert="fragments/head"></div>
+
+<body>
+<div th:insert="fragments/adminheader"></div>
+    <br>
+    <h1>Foglalások</h1>
+    <div style="height:45px;"><br></div>
+
+    <div class="adminCarList">
+        <table>
+            <tr>
+                <th>Autó Név</th>
+                <th>Ettől</th>
+                <th>Eddig</th>
+                <th>Megrendelő neve</th>
+                <th>Lakcím</th>
+                <th>Email</th>
+                <th>telefon</th>
+                <th>Ár (Ft)</th>
+            </tr>
+            <tr th:each="reservation : ${allReservations}">
+                <td th:text="${reservation.getCar.getName}"></td>
+                <td th:text="${reservation.getStart_date}"></td>
+                <td th:text="${reservation.getEnd_date}"></td>
+                <td th:text="${reservation.getName}"></td>
+                <td th:text="${reservation.getAddress}"></td>
+                <td th:text="${reservation.getEmail}"></td>
+                <td th:text="${reservation.getPhone}"></td>
+                <td th:text="${reservation.getTotal_price}"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

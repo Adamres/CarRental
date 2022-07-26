@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<div th:insert="fragments/head"></div>
+
+<body>
+<div th:insert="fragments/adminheader"></div>
+
+<div style="height:45px;"><br></div>
+    <h1>Autó hozzáadása</h1>
+    <div style="height:45px;"><br></div>
+
+    <div class="modifyForm">
+        <form action="/addCarProcess" method="post">
+            <div class="row">
+                <div class="col-25">
+                    <label for="carName">Autó név</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="carName" name="name" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="rentPrice">Ár</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="rentPrice" pattern="[0-9]+" name="price" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label for="photoUrl">Kép URL cím</label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="photoUrl" name="photoURL" required>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <button type="submit">Hozzáad</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
