@@ -39,7 +39,7 @@ Ha sikeresen konfiguráltuk a projektet, akkor indításnál ez a kezdőlap foga
 ### Röviden a weblap látható részeiről:<br>
 A főoldalon lehetőségünk van kiválasztani egy től-ig dátum párost és a Listáz gombra nyomva egy új oldalon kilistázza a megadott dátumok közötti időben elérhető autókat. Ezeket az autókat letudjuk foglalni egy űrlap segítségével, és a foglalások tárolódnak az adatbázisban.<br>
 Az admin oldalra kattintva megkapjuk(a sessionünk) a grant authoritiesben az admin jogokat és lehetőségünk van megtekinteni az adatbázisban szereplő autókat, amelyeket módosíthatunk, deaktiválhatunk, aktiválhatunk, törölhetünk. Deaktiválás és törlés esetén az autóhoz tartozó összes foglalás is törlésre kerül. A foglalásokat is megtekinthetjük, valamint autókat adhatunk hozzá az adatbázishoz.<br><br>
-Bővebb információkért: A fájlok nagy részében kommenteket helyeztem el, amelyek az adott kódot magyarázzák.
+Bővebb információkért: A fájlok nagy részében, ahol szükségesnek tartottam kommenteket helyeztem el, amelyek az adott kódot magyarázzák.
 
 
 
