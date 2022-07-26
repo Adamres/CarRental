@@ -24,7 +24,7 @@
      Futtatáshoz:  &nbsp;   ```docker run --net=host -p 8081:8080 -t car-rental-docker.jar``` <br>
      
 ## A REST API
-A bónusz Rest Api a controller packagen belül az APIController.java fájlban található meg, ahol bővebb kommentek találhatóak.<br>
+A bónusz Rest Api a controller packagen belül az APIController.java fájlban található meg, ahol bővebb leírások találhatóak.<br>
 Lehetőségünk van a grafikus felület mellett Rest Api segítségével is listázni a szabad autókat és foglalást leadni.<br>
 Példahasználat listázásra: ```/listcars/2022-08-04&2022-09-04```<br>
 Példahasználat foglalásra: ```/reserve/1&2022-08-04&2022-09-04&TesztVivien&Tesztutca&test@test.hu&06209999999```
