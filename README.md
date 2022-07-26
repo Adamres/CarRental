@@ -29,10 +29,10 @@ Lehetőségünk van a grafikus felület mellett Rest Api segítségével is list
 Példahasználat listázásra: ```/listcars/2022-08-04&2022-09-04```<br>
 Példahasználat foglalásra: ```/reserve/1&2022-08-04&2022-09-04&TesztVivien&Tesztutca&test@test.hu&06209999999```
 
-## Tesztek
+# Tesztek
 A tesztek a ```test/java/carrental``` mappában találhatóak, ahol tesztelve van az összes oldal elérhetősége, a kontrollerek funkciói és az adatbázis műveletek.
 
-## Egyéb információk
+# Egyéb információk
 Ha sikerült a konfigurálás, akkor indításnál ez a kezdőlap fogad minket<br><br>
 ![My Image](carRental/src/main/resources/static/styles/images/readmepic.png) <br>
 
