@@ -17,6 +17,6 @@
  2. Terminálon belül navigáljunk a projekt mappájába (carRental, ahol vannak a docker fájlok is)
  3. Adjuk ki a következő két parancsot a terminálon belül:<br> 
      Buildeléshez: &nbsp; ```docker build -t car-rental-docker.jar .``` <br>
-     Futtatáshoz:      ```docker run --net=host -p 8081:8080 -t car-rental-docker.jar```
+     Futtatáshoz:  &nbsp;   ```docker run --net=host -p 8081:8080 -t car-rental-docker.jar```
  
 
