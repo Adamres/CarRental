@@ -25,6 +25,9 @@
      
 ## A REST API
 A bónusz Rest Api a controller packagen belül az APIController.java fájlban található meg, ahol bővebb kommentek találhatóak.<br>
+Lehetőségünk van listázni a szabad autókat és foglalni.<br>
+Példahasználat listázásra: /listcars/2022-04-04&2022-04-05<br>
+Példahasználat foglalásra: /reserve/1&2022-04-04&2022-05-04&TesztVivien&Tesztutca&test@test.hu&06209999999
 
 ## Egyéb információk
 Ha sikerült a konfigurálás, akkor indításnál ez a kezdőlap fogad minket<br><br>
