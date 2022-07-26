@@ -26,8 +26,8 @@
 ## A REST API
 A bónusz Rest Api a controller packagen belül az APIController.java fájlban található meg, ahol bővebb kommentek találhatóak.<br>
 Lehetőségünk van a grafikus felület mellett Rest Api segítségével is listázni a szabad autókat és foglalást leadni.<br>
-Példahasználat listázásra: ```/listcars/2022-04-04&2022-04-05```<br>
-Példahasználat foglalásra: ```/reserve/1&2022-04-04&2022-05-04&TesztVivien&Tesztutca&test@test.hu&06209999999```
+Példahasználat listázásra: ```/listcars/2022-08-04&2022-09-04```<br>
+Példahasználat foglalásra: ```/reserve/1&2022-08-04&2022-09-04&TesztVivien&Tesztutca&test@test.hu&06209999999```
 
 ## Tesztek
 A tesztek a ```test/java/carrental``` mappában találhatóak, ahol tesztelve van az összes oldal elérhetősége, a kontrollerek funkciói és az adatbázis műveletek.
