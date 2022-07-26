@@ -16,8 +16,9 @@
 ## Lehetőség van docker segítségével elindítani a projektet, ebben az esetben
 
  1. mvn install, ekkor létrejön a target mappában a car-rental-docker nevű jar fájl
- 2. Terminálon belül navigáljunk a projekt mappájába (carRental, ahol vannak a docker fájlok is)
- 3. Adjuk ki a következő két parancsot a terminálon belül:<br> 
+ 2. Itt is a fent leírt adatbázis konfigurálás
+ 3. Terminálon belül navigáljunk a projekt mappájába (carRental, ahol vannak a docker fájlok is)
+ 4. Adjuk ki a következő két parancsot a terminálon belül:<br> 
      Buildeléshez: &nbsp; ```docker build -t car-rental-docker.jar .``` <br>
      Futtatáshoz:  &nbsp;   ```docker run --net=host -p 8081:8080 -t car-rental-docker.jar``` <br>
 
