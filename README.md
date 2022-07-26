@@ -6,7 +6,7 @@
 **Adatbázis neve:** car_rental
 
 # Útmutató
-## Projekt bekonfigurálása első használat előtt<br>
+## Projekt konfigurálása első használat előtt<br>
  
   1.  ```src/main/resources/application.properties``` fájlban módosíthatunk minden adatbázis eléréssel kapcsolatos információt, ha ez szükséges. Docker használata esetén ezt a ```docker-compose.yml``` fájlban is tegyük meg.
   2. Érdemes megnyomni a Reload All Maven Projects gombot IntelliJ esetén
